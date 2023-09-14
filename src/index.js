@@ -1,6 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
+import searchImages from "./api";
+
+searchImages();
 
 const el = document.getElementById("root");
 const root = ReactDOM.createRoot(el);
@@ -14,3 +17,4 @@ root.render(<App />);
 // https://unsplash.com/documentation#location
 // https://unsplash.com/documentation#public-authentication
 // https://unsplash.com/documentation#search-photos
+// npm install axios
